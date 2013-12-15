@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A84C1032-218E-476A-AAE0-2D111964BE1C}</ProjectGuid>
+    <ProjectGuid>{1A2EB973-6865-4448-AC2C-02366B6AE5F9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Schedule.ViewModel</RootNamespace>

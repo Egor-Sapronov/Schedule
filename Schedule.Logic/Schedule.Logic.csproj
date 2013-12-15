@@ -52,8 +52,8 @@
     <None Include="Prolog\schedule.prolog" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Schedule\Schedule.ViewModel\Schedule.ViewModel.csproj">
-      <Project>{a84c1032-218e-476a-aae0-2d111964be1c}</Project>
+    <ProjectReference Include="..\Schedule.ViewModel\Schedule.ViewModel.csproj">
+      <Project>{1a2eb973-6865-4448-ac2c-02366b6ae5f9}</Project>
       <Name>Schedule.ViewModel</Name>
     </ProjectReference>
   </ItemGroup>
