@@ -17,7 +17,7 @@ namespace Schedule.Logic
             {
                 if (_program == null)
                 {
-                    string path = "~/Prolog/Schedule.prolog";
+                    string path = "schedule.prolog";
                     if (!File.Exists(path))
                         throw new FileNotFoundException(string.Format("{0} not found.  Consider updating SamplesFolder setting during program development.", path));
                     Program program = Program.Load(path);
