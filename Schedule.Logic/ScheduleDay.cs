@@ -1,4 +1,4 @@
-﻿using Schedule.ViewModel;
+﻿using Schedule.Logic.ViewModel;
 
 namespace Schedule.Logic
 {

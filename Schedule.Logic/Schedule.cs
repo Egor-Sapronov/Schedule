@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using Prolog.Code;
-using Schedule.ViewModel;
+using Schedule.Logic.ViewModel;
 
 namespace Schedule.Logic
 {

@@ -46,16 +46,12 @@
     <Compile Include="ScheduleDay.cs" />
     <Compile Include="Schedule.cs" />
     <Compile Include="Scheduler.cs" />
+    <Compile Include="ViewModel\AppState.cs" />
+    <Compile Include="ViewModel\ScheduleShift.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Prolog\schedule.prolog" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Schedule.ViewModel\Schedule.ViewModel.csproj">
-      <Project>{1a2eb973-6865-4448-ac2c-02366b6ae5f9}</Project>
-      <Name>Schedule.ViewModel</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
