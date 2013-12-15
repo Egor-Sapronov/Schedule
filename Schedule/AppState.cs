@@ -2,13 +2,13 @@
 using System.ComponentModel;
 using Schedule.Logic;
 
-namespace Schedule.Logic.ViewModel
+namespace Schedule
 {
     public class AppState : INotifyPropertyChanged
     {
         private App _application;
         private Scheduler _scheduler;
-        private Schedule _schedule;
+        private Schedule.Logic.Schedule _schedule;
 
         internal AppState(App application)
         {
@@ -19,7 +19,7 @@ namespace Schedule.Logic.ViewModel
 
         public App Application { get { return _application; } }
         public Scheduler Scheduler { get { return _scheduler; } }
-        public Schedule Schedule 
+        public Schedule.Logic.Schedule Schedule 
         { 
             get { return _schedule; }
             set
