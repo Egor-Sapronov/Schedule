@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Schedule.Logic
+namespace Schedule.ViewModel
 {
     public class ScheduleShift : INotifyPropertyChanged
     {
